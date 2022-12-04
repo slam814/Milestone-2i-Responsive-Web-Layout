@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       nav > ul{
+        display: flex;
+       }
+      nav  li{
+        font-size: 20px;
+        list-style: none;
+        margin: 20px;
+        padding: 0 10px 10px;
+        
+        
+       }
+       nav li:hover{
+        background-color: lightseagreen;
+       }
+       nav li a{
+        text-decoration: none;
+       }
+       .dropdown{
+        display: none;
+        position: absolute;
+        background-color: lightseagreen;
+        color: white;
+       }
+       .dropdown li{
+        margin: 0;
+        padding: 0px 5px;
+       }
+       nav > ul > li:hover > ul{
+        display: block;
+       }
+       nav > ul > li:hover > ul > li:hover {
+        background-color: blueviolet;
+        color: white;
+        
+       }
+ h1{
+    text-align: center;
+ }
+
+    </style>
+</head>
+<body>
+<nav>    <ul>
+    <li><a href="">Home</a></li>
+    <li><a href="">About</a></li>
+    <li ><a href="">My Class
+        <ul class="dropdown"> 
+            <li><a href="">link-1</a></li>
+            <li><a href="">link-2</a></li>
+            <li><a href="">link-3</a></li>
+            <li><a href="">link-4</a></li>
+            <li><a href="">link-5</a></li>
+            <li><a href="">link-6</a></li>
+            <li><a href="">link-7</a></li>
+
+        </ul>
+    </a></li>
+    <li><a href="">Log in</a></li>
+    <li><a href="">Notification</a></li>
+    <li><img src="" alt=""></li>
+    
+        </ul>
+    </nav>
+
+
+
+<h1 >Welcome to my Navebar dowpdown manu</h1>
+
+
+
+</body>
+</html>
